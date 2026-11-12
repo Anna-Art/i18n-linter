@@ -68,6 +68,26 @@ Translations are imported at build time and processed in the browser. **Every im
 
 `npm run build` writes `dist/`, including `THIRD_PARTY_LICENSES.txt` generated from bundled dependencies. Keep that file with any distributed or hosted build. See [third-party notices](THIRD_PARTY_NOTICES.md).
 
-A host must serve `index.html` for client routes such as `/summary`. GitHub Pages needs additional base-path and SPA fallback configuration; this repository does not configure deployment.
+### GitHub Pages
+
+1. Open the repository's **Settings → Pages**.
+2. Under **Build and deployment → Source**, select **GitHub Actions**.
+3. Commit and push the deployment configuration to `master`.
+4. Open **Actions → Deploy to GitHub Pages** and wait for the deployment to succeed. The deployment job provides the site URL. Later pushes to `master` publish automatically; **Run workflow** can also deploy it manually.
+
+The workflow installs dependencies, runs lint and demo checks, and publishes `dist/`. It uses the base path returned by GitHub Pages, so repository subpaths and custom domains do not need a hardcoded repository name. No personal access token is required.
+
+React Router uses the same base path as Vite. The build generates an entry page for each path in `src/data/routes.ts`, so `/summary/` works on direct visits and refreshes. Unknown paths use `404.html` to reach the app's catch-all redirect; the initial response for such an unknown URL still has HTTP status 404.
+
+To check the repository subpath locally:
+
+```bash
+PAGES_BASE_PATH=/i18n-linter npm run build
+PAGES_BASE_PATH=/i18n-linter npm run preview
+```
+
+Open the preview server at `/i18n-linter/` or `/i18n-linter/summary/`. Ordinary local development continues to use `/`.
+
+See the [Vite deployment guide](https://vite.dev/guide/static-deploy#github-pages) and [GitHub Pages configuration](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 Before publishing, read the [publication review](src/docs/publication-review.md), including the completed separation from the previous translation corpus, dependency notices, and remaining development-tool advisories.

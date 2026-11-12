@@ -1,10 +1,8 @@
 import { Link, useLocation } from "react-router";
+import { APP_ROUTES } from "../../data/routes";
 import "./NavBarStyles.css";
 
-const NAV_ITEMS: Array<{ path: string; label: string }> = [
-    { path: "/", label: "Overview" },
-    { path: "/summary", label: "Summary" },
-];
+const NAV_ITEMS = Object.values(APP_ROUTES);
 
 export function NavBar() {
     const location = useLocation();
