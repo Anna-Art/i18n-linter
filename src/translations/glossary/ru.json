@@ -1,0 +1,16 @@
+{
+  "glossary": {
+    "basket": "корзина",
+    "coupon": "купон",
+    "delivery": "доставка",
+    "mug": "кружка",
+    "order": "заказ",
+    "order-gen": "заказа",
+    "order-dat": "заказу",
+    "order-acc": "заказ",
+    "order-ins": "заказом",
+    "order-pre": "заказе",
+    "product": "товар",
+    "products": "товары"
+  }
+}

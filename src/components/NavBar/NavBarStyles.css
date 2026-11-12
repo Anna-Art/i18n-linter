@@ -1,0 +1,68 @@
+/* Navbar — Design System */
+.navbar {
+    width: 100%;
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border-light);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar__inner {
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 3.5rem;
+    box-sizing: border-box;
+}
+
+.navbar__brand {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-h);
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.navbar__links {
+    display: flex;
+    gap: 0;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar__link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 0.875rem;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    background: transparent;
+    color: var(--text);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-family: var(--sans);
+    white-space: nowrap;
+}
+
+.navbar__link:hover {
+    color: var(--text-h);
+    background: var(--surface);
+}
+
+.navbar__link--active {
+    color: var(--accent);
+    font-weight: 600;
+    border-bottom-color: var(--accent);
+}
+
+.navbar__link--active:hover {
+    color: var(--accent);
+    background: transparent;
+}

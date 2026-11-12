@@ -1,0 +1,13 @@
+{
+  "report": {
+    "sales": {
+      "title": "Ventas de esta semana",
+      "order": "$t(common:order-label)"
+    },
+    "steps": [
+      "Elige algo que te guste",
+      "Revisa tus datos",
+      "Confirma y relájate"
+    ]
+  }
+}

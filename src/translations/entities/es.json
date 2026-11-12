@@ -1,0 +1,10 @@
+{
+  "entities": {
+    "z-order": {
+      "label": "$t(common:order-label)"
+    },
+    "a-product": {
+      "label": "$t(common:product-label)"
+    }
+  }
+}

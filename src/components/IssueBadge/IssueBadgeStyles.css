@@ -1,0 +1,110 @@
+/* Issue Badge — Design System */
+.badge-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025rem;
+    white-space: nowrap;
+    line-height: 1.4;
+}
+
+.badge--wrong-key {
+    background: rgba(255, 152, 0, 0.12);
+    color: #ef6c00;
+}
+
+.badge--typo {
+    background: var(--red-bg);
+    color: var(--red);
+}
+
+.badge--cross-block {
+    background: rgba(233, 30, 99, 0.1);
+    color: #c2185b;
+}
+
+.badge--syntax {
+    background: rgba(255, 87, 34, 0.16);
+    color: #bf360c;
+}
+
+.badge--missing-lang {
+    background: var(--yellow-bg);
+    color: #b8860b;
+}
+
+.badge--redundant-modifier {
+    background: rgba(0, 188, 212, 0.12);
+    color: #00838f;
+}
+
+.badge--plural-glossary {
+    background: rgba(233, 30, 99, 0.12);
+    color: #ad1457;
+}
+
+.badge--invalid-plural {
+    background: rgba(255, 87, 34, 0.14);
+    color: #d84315;
+}
+
+.badge--hardcoded-glossary {
+    background: rgba(156, 39, 176, 0.12);
+    color: #7b1fa2;
+}
+
+.badge--key-ordering {
+    background: rgba(0, 150, 136, 0.12);
+    color: #00695c;
+}
+
+@media (prefers-color-scheme: dark) {
+    .badge--wrong-key {
+        color: #ffcc80;
+    }
+
+    .badge--typo {
+        color: #ef9a9a;
+    }
+
+    .badge--cross-block {
+        color: #f48fb1;
+    }
+
+    .badge--syntax {
+        color: #ffab91;
+    }
+
+    .badge--missing-lang {
+        color: #ffd54f;
+    }
+
+    .badge--redundant-modifier {
+        color: #4dd0e1;
+    }
+
+    .badge--plural-glossary {
+        color: #f48fb1;
+    }
+
+    .badge--invalid-plural {
+        color: #ffab91;
+    }
+
+    .badge--hardcoded-glossary {
+        color: #ce93d8;
+    }
+
+    .badge--key-ordering {
+        color: #80cbc4;
+    }
+}

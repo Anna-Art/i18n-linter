@@ -1,0 +1,63 @@
+{
+  "dashboard": {
+    "brand": "Küçük Fener",
+    "hero": {
+      "title": "Günlük alışkanlıklar için kullanışlı eşyalar.",
+      "action": "$t(common:shop.browse)"
+    },
+    "navigation": {
+      "basket": "$t(common:basket-label)",
+      "help": "$t(common:help.title)"
+    },
+    "basket": {
+      "empty": "Sepetiniz boş.",
+      "add": "Sepete ekle",
+      "items_one": "{{count}} adet",
+      "items_other": "{{count}} adet"
+    },
+    "checkout": {
+      "thanks": "Teşekkürler, {{name}}!",
+      "confirmation": "{{email}} adresine onay göndereceğiz.",
+      "continue": "$t(ui:buttons.continue)",
+      "steps": [
+        "Beğendiğiniz bir şey seçin",
+        "Bilgilerinizi kontrol edin",
+        "Onaylayın ve rahatlayın"
+      ]
+    },
+    "tracking": {
+      "status": "Siparişiniz yolda."
+    },
+    "catalog": {
+      "mug": {
+        "title": "Seramik kupa",
+        "description": "Sakin sabahlar için küçük bir seramik kupa."
+      },
+      "tote": {
+        "title": "Pamuklu çanta",
+        "description": "Günlük alışverişler için dayanıklı pamuklu çanta."
+      }
+    },
+    "saved": {
+      "empty": "Kaydettiğiniz ürünler burada görünecek."
+    },
+    "valid": {
+      "nested-reference": "$t(ui:labels.basket)",
+      "local-reference": "$t(brand)",
+      "term": "$t(glossary:product)",
+      "case-reference": "$t(glossary:order-gen, capitalizeFirstLetter) numarası"
+    },
+    "demo": {
+      "missing-key": "$t(glossary:unobtainable-gift-wrapping)",
+      "typo": "$t(glossary:prdouct)",
+      "missing-dollar": "t(glossary:product)",
+      "missing-parenthesis": "$t(glossary:product",
+      "empty-namespace": "$t(:product)",
+      "empty-key": "$t(glossary:)",
+      "redundant-modifier": "$t(common:actions.continue, capitalizeFirstLetter)",
+      "fallback": "$t(glossary:return-window)",
+      "hardcoded-term": "Ödeme sırasında kupon kullanın.",
+      "invalid_few": "{{count}}"
+    }
+  }
+}

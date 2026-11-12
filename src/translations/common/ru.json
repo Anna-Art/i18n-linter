@@ -1,0 +1,18 @@
+{
+  "common": {
+    "actions": {
+      "continue": "Продолжить"
+    },
+    "basket-label": "$t(glossary:basket, capitalizeFirstLetter)",
+    "help": {
+      "title": "Нужна помощь?"
+    },
+    "order-label": "$t(glossary:order, capitalizeFirstLetter)",
+    "product-label": "$t(glossary:product, capitalizeFirstLetter)",
+    "shop": {
+      "browse": "Посмотреть коллекцию",
+      "shipping": "Бесплатная доставка от {{amount}}",
+      "tagline": "Продуманные вещи на каждый день"
+    }
+  }
+}

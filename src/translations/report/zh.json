@@ -1,0 +1,13 @@
+{
+  "report": {
+    "sales": {
+      "title": "本周销售额",
+      "order": "$t(common:order-label)"
+    },
+    "steps": [
+      "挑选喜欢的好物",
+      "核对信息",
+      "确认后安心等待"
+    ]
+  }
+}

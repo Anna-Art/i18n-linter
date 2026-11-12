@@ -1,0 +1,18 @@
+{
+  "common": {
+    "actions": {
+      "continue": "Continue"
+    },
+    "basket-label": "$t(glossary:basket, capitalizeFirstLetter)",
+    "help": {
+      "title": "Need a hand?"
+    },
+    "order-label": "$t(glossary:order, capitalizeFirstLetter)",
+    "product-label": "$t(glossary:product, capitalizeFirstLetter)",
+    "shop": {
+      "browse": "Browse the collection",
+      "shipping": "Free delivery from {{amount}}",
+      "tagline": "Everyday objects, thoughtfully chosen"
+    }
+  }
+}

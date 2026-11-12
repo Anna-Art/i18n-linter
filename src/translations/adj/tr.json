@@ -1,0 +1,8 @@
+{
+  "adj": {
+    "available": "mevcut",
+    "new": "yeni",
+    "ready": "hazır",
+    "reference-demo": "$t(glossary:product)"
+  }
+}

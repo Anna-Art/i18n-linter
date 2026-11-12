@@ -1,0 +1,10 @@
+{
+  "adj": {
+    "available": "доступный",
+    "new": "новый",
+    "new_f": "новая",
+    "new_n": "новое",
+    "ready": "готовый",
+    "reference-demo": "$t(glossary:product)"
+  }
+}

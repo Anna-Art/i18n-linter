@@ -1,0 +1,62 @@
+{
+  "dashboard": {
+    "brand": "Little Lantern",
+    "hero": {
+      "title": "Useful things for everyday rituals.",
+      "action": "$t(common:shop.browse)"
+    },
+    "navigation": {
+      "basket": "$t(common:basket-label)",
+      "help": "$t(common:help.title)"
+    },
+    "basket": {
+      "empty": "Your basket is empty.",
+      "add": "Add to basket",
+      "items_one": "{{count}} item",
+      "items_other": "{{count}} items"
+    },
+    "checkout": {
+      "thanks": "Thanks, {{name}}!",
+      "confirmation": "We will send a confirmation to {{email}}.",
+      "continue": "$t(ui:buttons.continue)",
+      "steps": [
+        "Choose something you like",
+        "Check your details",
+        "Confirm and relax"
+      ]
+    },
+    "tracking": {
+      "status": "Your order is on its way."
+    },
+    "catalog": {
+      "mug": {
+        "title": "Ceramic mug",
+        "description": "A small ceramic mug for slow mornings."
+      },
+      "tote": {
+        "title": "Cotton tote",
+        "description": "A sturdy cotton bag for daily errands."
+      }
+    },
+    "saved": {
+      "empty": "Your saved items will appear here."
+    },
+    "valid": {
+      "nested-reference": "$t(ui:labels.basket)",
+      "local-reference": "$t(brand)",
+      "term": "$t(glossary:product)"
+    },
+    "demo": {
+      "missing-key": "$t(glossary:unobtainable-gift-wrapping)",
+      "typo": "$t(glossary:prdouct)",
+      "missing-dollar": "t(glossary:product)",
+      "missing-parenthesis": "$t(glossary:product",
+      "empty-namespace": "$t(:product)",
+      "empty-key": "$t(glossary:)",
+      "redundant-modifier": "$t(common:actions.continue, capitalizeFirstLetter)",
+      "fallback": "$t(glossary:return-window)",
+      "hardcoded-term": "Apply your coupon at checkout.",
+      "invalid_few": "{{count}}"
+    }
+  }
+}

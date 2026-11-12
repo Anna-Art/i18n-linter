@@ -1,0 +1,65 @@
+{
+  "dashboard": {
+    "brand": "Маленький фонарь",
+    "hero": {
+      "title": "Полезные вещи для повседневных ритуалов.",
+      "action": "$t(common:shop.browse)"
+    },
+    "navigation": {
+      "basket": "$t(common:basket-label)",
+      "help": "$t(common:help.title)"
+    },
+    "basket": {
+      "empty": "Ваша корзина пуста.",
+      "add": "Добавить в корзину",
+      "items_only": "{{count}} товар",
+      "items_one": "{{count}} товар",
+      "items_few": "{{count}} товара",
+      "items_many": "{{count}} товаров"
+    },
+    "checkout": {
+      "thanks": "Спасибо, {{name}}!",
+      "confirmation": "Мы отправим подтверждение на {{email}}.",
+      "continue": "$t(ui:buttons.continue)",
+      "steps": [
+        "Выберите то, что вам нравится",
+        "Проверьте данные",
+        "Подтвердите и отдыхайте"
+      ]
+    },
+    "tracking": {
+      "status": "Ваш заказ уже в пути."
+    },
+    "catalog": {
+      "mug": {
+        "title": "Керамическая кружка",
+        "description": "Небольшая керамическая кружка для неспешного утра."
+      },
+      "tote": {
+        "title": "Хлопковая сумка",
+        "description": "Прочная хлопковая сумка для ежедневных покупок."
+      }
+    },
+    "saved": {
+      "empty": "Здесь появятся сохранённые товары."
+    },
+    "valid": {
+      "nested-reference": "$t(ui:labels.basket)",
+      "local-reference": "$t(brand)",
+      "term": "$t(glossary:product)",
+      "case-reference": "Номер $t(glossary:order-gen)"
+    },
+    "demo": {
+      "missing-key": "$t(glossary:unobtainable-gift-wrapping)",
+      "typo": "$t(glossary:prdouct)",
+      "missing-dollar": "t(glossary:product)",
+      "missing-parenthesis": "$t(glossary:product",
+      "empty-namespace": "$t(:product)",
+      "empty-key": "$t(glossary:)",
+      "redundant-modifier": "$t(common:actions.continue, capitalizeFirstLetter)",
+      "fallback": "$t(glossary:return-window)",
+      "hardcoded-term": "Примените купон при оформлении.",
+      "invalid_other": "{{count}}"
+    }
+  }
+}

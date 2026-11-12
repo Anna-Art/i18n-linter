@@ -1,0 +1,18 @@
+{
+  "common": {
+    "actions": {
+      "continue": "继续"
+    },
+    "basket-label": "$t(glossary:basket)",
+    "help": {
+      "title": "需要帮助吗？"
+    },
+    "order-label": "$t(glossary:order)",
+    "product-label": "$t(glossary:product)",
+    "shop": {
+      "browse": "浏览精选商品",
+      "shipping": "满 {{amount}} 免配送费",
+      "tagline": "用心挑选的日常好物"
+    }
+  }
+}

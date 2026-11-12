@@ -1,0 +1,89 @@
+/* Table wrapper — Design System */
+.table-wrapper {
+    overflow-x: auto;
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: 0.5rem;
+}
+
+.table-summary {
+    font-size: 0.8125rem;
+    color: var(--text);
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-light);
+    background: var(--surface);
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/* Candidates table */
+.candidates-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+}
+
+.candidates-table th {
+    text-align: left;
+    padding: 0.75rem 0.875rem;
+    border-bottom: 1px solid var(--border-light);
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text);
+    white-space: nowrap;
+    user-select: none;
+    background: var(--surface);
+}
+
+.candidates-table td {
+    padding: 0.75rem 0.875rem;
+    border-bottom: 1px solid var(--border-light);
+    vertical-align: top;
+}
+
+.candidates-table tr:last-child td {
+    border-bottom: none;
+}
+
+.candidates-table tbody tr:hover {
+    background: var(--surface-hover);
+}
+
+/* Column widths */
+.th-key {
+    min-width: 16rem;
+    width: 25%;
+}
+
+.th-value {
+    min-width: 12rem;
+    width: 20%;
+}
+
+.th-issue {
+    min-width: 8rem;
+    width: 10%;
+}
+
+.th-suggestion {
+    min-width: 12rem;
+    width: 15%;
+}
+
+.th-note {
+    min-width: 14rem;
+    width: 30%;
+}
+
+/* Empty state */
+.table-empty {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text);
+    opacity: 0.6;
+    font-size: 0.9375rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: 0.5rem;
+}

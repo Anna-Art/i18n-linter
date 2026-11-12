@@ -1,0 +1,13 @@
+{
+  "ui": {
+    "buttons": {
+      "continue": "$t(common:actions.continue)"
+    },
+    "demo": {
+      "cross-reference": "$t(glossary:product)"
+    },
+    "labels": {
+      "basket": "$t(common:basket-label)"
+    }
+  }
+}

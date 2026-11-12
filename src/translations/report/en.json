@@ -1,0 +1,13 @@
+{
+  "report": {
+    "sales": {
+      "title": "Sales this week",
+      "order": "$t(common:order-label)"
+    },
+    "steps": [
+      "Choose something you like",
+      "Check your details",
+      "Confirm and relax"
+    ]
+  }
+}

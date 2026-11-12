@@ -1,0 +1,21 @@
+/* Glossary Badge — Design System */
+.glossary-badge {
+    font-size: 0.75rem;
+    padding: 0.125rem 0.4375rem;
+    border-radius: 0.1875rem;
+    white-space: nowrap;
+    cursor: help;
+    font-weight: 500;
+    font-family: var(--mono);
+    letter-spacing: 0.02em;
+}
+
+.glossary-badge--yes {
+    background: var(--green-bg);
+    color: var(--green);
+}
+
+.glossary-badge--no {
+    background: var(--red-bg);
+    color: var(--red);
+}

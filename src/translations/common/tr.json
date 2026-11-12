@@ -1,0 +1,18 @@
+{
+  "common": {
+    "actions": {
+      "continue": "Devam et"
+    },
+    "basket-label": "$t(glossary:basket, capitalizeFirstLetter)",
+    "help": {
+      "title": "Yardıma mı ihtiyacınız var?"
+    },
+    "order-label": "$t(glossary:order, capitalizeFirstLetter)",
+    "product-label": "$t(glossary:product, capitalizeFirstLetter)",
+    "shop": {
+      "browse": "Koleksiyonu keşfet",
+      "shipping": "{{amount}} üzeri ücretsiz teslimat",
+      "tagline": "Her gün için özenle seçilmiş eşyalar"
+    }
+  }
+}

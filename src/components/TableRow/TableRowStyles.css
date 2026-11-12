@@ -1,0 +1,102 @@
+/* Table Row — Design System */
+.table-row--wrong-key {
+    background: rgba(255, 152, 0, 0.02);
+}
+
+.table-row--typo {
+    background: rgba(244, 67, 54, 0.02);
+}
+
+.table-row--cross-block-ref {
+    background: rgba(233, 30, 99, 0.02);
+}
+
+.table-row--syntax-error {
+    background: rgba(255, 87, 34, 0.04);
+}
+
+/* Key path cell */
+.td-key code {
+    font-size: 0.8125rem;
+    word-break: break-all;
+    background: var(--code-bg);
+    padding: 0.125rem 0.4375rem;
+    border-radius: 0.1875rem;
+    color: var(--text-h);
+}
+
+/* Value cell */
+.value-display {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    word-break: break-word;
+    color: var(--text-h);
+}
+
+.hl-ref {
+    background: var(--green-bg);
+    padding: 0.0625rem 0.25rem;
+    border-radius: 0.1875rem;
+    font-family: var(--mono);
+    font-size: 0.8125rem;
+    cursor: help;
+    color: var(--green);
+}
+
+/* Suggestion cell */
+.suggestion-line {
+    line-height: 1.6;
+}
+
+.suggestion-code {
+    font-size: 0.8125rem;
+    background: var(--code-bg);
+    padding: 0.125rem 0.4375rem;
+    border-radius: 0.1875rem;
+    word-break: break-all;
+    color: var(--text-h);
+}
+
+.suggestion-meta {
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: var(--accent);
+}
+
+.suggestion-meta code {
+    font-size: 0.75rem;
+    background: transparent;
+    padding: 0;
+    color: var(--accent);
+}
+
+/* Note cell */
+.note-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.note-line {
+    line-height: 1.5;
+}
+
+.note-text {
+    font-size: 0.8125rem;
+    color: var(--text);
+}
+
+.note-text code {
+    font-size: 0.75rem;
+    background: var(--code-bg);
+    padding: 0.0625rem 0.3125rem;
+    border-radius: 0.1875rem;
+    font-family: var(--mono);
+    color: var(--accent);
+    word-break: break-all;
+}
+
+.text-muted {
+    color: var(--text);
+    opacity: 0.4;
+}

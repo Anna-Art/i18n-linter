@@ -1,0 +1,9 @@
+{
+  "adj": {
+    "available": "disponible",
+    "new": "nuevo",
+    "new_f": "nueva",
+    "ready": "listo",
+    "reference-demo": "$t(glossary:product)"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dashboard": {
+    "brand": "小灯笼",
+    "hero": {
+      "title": "让日常生活更舒心的实用好物。",
+      "action": "$t(common:shop.browse)"
+    },
+    "navigation": {
+      "basket": "$t(common:basket-label)",
+      "help": "$t(common:help.title)"
+    },
+    "basket": {
+      "empty": "购物篮还是空的。",
+      "add": "加入购物篮",
+      "items_only": "{{count}} 件",
+      "items_other": "{{count}} 件"
+    },
+    "checkout": {
+      "thanks": "谢谢，{{name}}！",
+      "confirmation": "我们会向 {{email}} 发送确认邮件。",
+      "continue": "$t(ui:buttons.continue)",
+      "steps": [
+        "挑选喜欢的好物",
+        "核对信息",
+        "确认后安心等待"
+      ]
+    },
+    "tracking": {
+      "status": "您的订单正在配送中。"
+    },
+    "catalog": {
+      "mug": {
+        "title": "陶瓷马克杯",
+        "description": "适合悠闲早晨的小巧陶瓷马克杯。"
+      },
+      "tote": {
+        "title": "棉布袋",
+        "description": "适合日常采购的耐用棉布袋。"
+      }
+    },
+    "saved": {
+      "empty": "您收藏的商品会显示在这里。"
+    },
+    "valid": {
+      "nested-reference": "$t(ui:labels.basket)",
+      "local-reference": "$t(brand)",
+      "term": "$t(glossary:product)"
+    },
+    "demo": {
+      "missing-key": "$t(glossary:unobtainable-gift-wrapping)",
+      "typo": "$t(glossary:prdouct)",
+      "missing-dollar": "t(glossary:product)",
+      "missing-parenthesis": "$t(glossary:product",
+      "empty-namespace": "$t(:product)",
+      "empty-key": "$t(glossary:)",
+      "redundant-modifier": "$t(common:actions.continue, capitalizeFirstLetter)",
+      "fallback": "$t(glossary:return-window)",
+      "hardcoded-term": "结账时使用优惠券。",
+      "invalid_one": "{{count}}",
+      "plural-reference": "$t(glossary:products)"
+    }
+  }
+}

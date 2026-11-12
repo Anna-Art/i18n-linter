@@ -1,0 +1,13 @@
+{
+  "report": {
+    "sales": {
+      "title": "Bu haftaki satışlar",
+      "order": "$t(common:order-label)"
+    },
+    "steps": [
+      "Beğendiğiniz bir şey seçin",
+      "Bilgilerinizi kontrol edin",
+      "Onaylayın ve rahatlayın"
+    ]
+  }
+}

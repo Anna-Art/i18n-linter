@@ -1,0 +1,16 @@
+{
+  "glossary": {
+    "basket": "sepet",
+    "coupon": "kupon",
+    "delivery": "teslimat",
+    "mug": "kupa",
+    "order": "sipariş",
+    "order-gen": "siparişin",
+    "order-dat": "siparişe",
+    "order-acc": "siparişi",
+    "order-loc": "siparişte",
+    "order-abl": "siparişten",
+    "product": "ürün",
+    "products": "ürünler"
+  }
+}

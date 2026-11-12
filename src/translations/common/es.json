@@ -1,0 +1,18 @@
+{
+  "common": {
+    "actions": {
+      "continue": "Continuar"
+    },
+    "basket-label": "$t(glossary:basket, capitalizeFirstLetter)",
+    "help": {
+      "title": "¿Necesitas ayuda?"
+    },
+    "order-label": "$t(glossary:order, capitalizeFirstLetter)",
+    "product-label": "$t(glossary:product, capitalizeFirstLetter)",
+    "shop": {
+      "browse": "Ver la colección",
+      "shipping": "Entrega gratis a partir de {{amount}}",
+      "tagline": "Objetos bien pensados para cada día"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dashboard": {
+    "brand": "Pequeño Farol",
+    "hero": {
+      "title": "Cosas útiles para los rituales de cada día.",
+      "action": "$t(common:shop.browse)"
+    },
+    "navigation": {
+      "basket": "$t(common:basket-label)",
+      "help": "$t(common:help.title)"
+    },
+    "basket": {
+      "empty": "Tu cesta está vacía.",
+      "add": "Añadir a la cesta",
+      "items_one": "{{count}} artículo",
+      "items_many": "{{count}} artículos",
+      "items_other": "{{count}} artículos"
+    },
+    "checkout": {
+      "thanks": "¡Gracias, {{name}}!",
+      "confirmation": "Enviaremos una confirmación a {{email}}.",
+      "continue": "$t(ui:buttons.continue)",
+      "steps": [
+        "Elige algo que te guste",
+        "Revisa tus datos",
+        "Confirma y relájate"
+      ]
+    },
+    "tracking": {
+      "status": "Tu pedido está en camino."
+    },
+    "catalog": {
+      "mug": {
+        "title": "Taza de cerámica",
+        "description": "Una pequeña taza de cerámica para mañanas tranquilas."
+      },
+      "tote": {
+        "title": "Bolsa de algodón",
+        "description": "Una bolsa resistente de algodón para las compras diarias."
+      }
+    },
+    "saved": {
+      "empty": "Tus artículos guardados aparecerán aquí."
+    },
+    "valid": {
+      "nested-reference": "$t(ui:labels.basket)",
+      "local-reference": "$t(brand)",
+      "term": "$t(glossary:product)"
+    },
+    "demo": {
+      "missing-key": "$t(glossary:unobtainable-gift-wrapping)",
+      "typo": "$t(glossary:prdouct)",
+      "missing-dollar": "t(glossary:product)",
+      "missing-parenthesis": "$t(glossary:product",
+      "empty-namespace": "$t(:product)",
+      "empty-key": "$t(glossary:)",
+      "redundant-modifier": "$t(common:actions.continue, capitalizeFirstLetter)",
+      "fallback": "$t(glossary:return-window)",
+      "hardcoded-term": "Usa tu cupón al finalizar la compra.",
+      "invalid_few": "{{count}}"
+    }
+  }
+}
